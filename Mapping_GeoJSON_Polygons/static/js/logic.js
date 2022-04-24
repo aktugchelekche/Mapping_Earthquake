@@ -25,7 +25,7 @@ let baseMaps = {
 let map = L.map('mapid', {
   center: [43.7, -79.3],
   zoom: 11,
-  layers: [satelliteStreets]
+  layers: [streets]
 }) ; 
 
 L.control.layers(baseMaps).addTo(map);
@@ -34,9 +34,18 @@ L.control.layers(baseMaps).addTo(map);
 let torontoHoods = "https://raw.githubusercontent.com/aktugchelekche/Mapping_Earthquake/main/torontoNeighborhoods.json" 
 ;
 // Then we add our 'graymap' tile layer to the map.
-
+let myStyle = {
+    fillColor: "yellow",
+    weight: 1 
+};
 
 d3.json(torontoHoods).then(function(data){
   console.log(data) ;
-  L.geoJSON(data).addTo(map) ;
+  L.geoJSON(data, {
+      style: myStyle ,
+    onEachFeature: function(feature, layer) {
+        layer.bindPopup("<h2>Neighborhood : "+feature.properties.AREA_NAME+"</h2>");
+       }
+  }).addTo(map);
 }) ;
+
