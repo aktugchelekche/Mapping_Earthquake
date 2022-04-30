@@ -27,3 +27,5 @@ My  approach is to use the JavaScript and the D3.js library to retrieve the coor
 <p align="center">
 <img width="700" alt="Screen Shot 2022-04-29 at 9 47 06 PM" src="https://user-images.githubusercontent.com/98676400/166087894-959d8cd1-1680-4311-be6d-d7a3b352ee13.png">
 </p>
+
+https://github.com/aktugchelekche/Mapping_Earthquake/blob/a77e83fc9209254e246f46c48da7792c2b1466a9/Earthquake_Challenge/index.html
