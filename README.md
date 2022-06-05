@@ -15,7 +15,7 @@ My  approach is to use the JavaScript and the D3.js library to retrieve the coor
 #### Street Map with Tectonic Plates and Earthquakes :
 
 <p align="center">
-<img width="700" alt="Screen Shot 2022-04-29 at 9 38 08 PM" src="https://user-images.githubusercontent.com/98676400/166087889-0f71cd2c-7abb-4acb-a0f6-7fc155bbad8c.png">
+<img width="70%" alt="Screen Shot 2022-04-29 at 9 38 08 PM" src="https://user-images.githubusercontent.com/98676400/166087889-0f71cd2c-7abb-4acb-a0f6-7fc155bbad8c.png">
 </p>
 
 #### Street Map with Tectonic Plates,Major Earthquakes and Earthquakes :
